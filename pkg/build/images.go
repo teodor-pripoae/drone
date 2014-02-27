@@ -47,6 +47,12 @@ var services = map[string]*image{
 		Tag:   "bradrydzewski/elasticsearch:0.90",
 		Name:  "elasticsearch",
 	},
+	"elasticsearch:1.0.0.RC2": {
+		Ports: []string{"9200"},
+		Tag:   "dockerfile/elasticsearch",
+		Name:  "elasticsearch",
+	},
+
 
 	// redis servers
 	"redis": {
